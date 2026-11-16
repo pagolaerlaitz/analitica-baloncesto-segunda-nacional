@@ -1,0 +1,20 @@
+# Datos: no se publican (nombres y fotos de jugadores, scouting interno del club)
+*.db
+*.json
+!app_movil/manifest.webmanifest
+!app_movil/vercel.json
+assets/
+app_movil/data/
+app_movil/img/
+partidos_a_procesar.txt
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor
+.vscode/
+.claude/
